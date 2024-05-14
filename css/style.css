@@ -1,0 +1,122 @@
+
+
+body{
+	background-color: bisque;
+}
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+.container{
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	margin-top: 50px;
+	background-color: whitesmoke;
+}
+
+
+.form-signin{
+	max-width: 800px;
+	border-radius: 5px;
+	background-color: white;
+	
+}
+
+.form-control{
+	
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.form-signin select{
+	max-width: 1000px;
+	border-radius: 0px;
+	background-color: white;
+	padding: 10px;
+	
+}
+
+.input-group{
+	padding: 10px;
+}
+.form-signin label{
+	position: absolute;
+	z-index: 20;
+	margin-top: -15px;
+	margin-left: 15px;
+	background-color: white;
+	padding: 2px;
+	
+}
+
+.modal-body form.form-signin{
+	box-shadow: none;
+	max-width: 100%;
+}
+.modal-body form.form-signin input{
+	padding:  10px;
+	font-weight: bold;
+}
+
+.modal-body form.form-signin select{
+	padding:  10px;
+	font-weight: bold;
+	height: auto;
+}
+
+.modal-body form.form-signin .form-group{
+	padding: 5px;
+}
+
+ input .form-control{
+    outline-color: white;
+	padding: 10px;
+}
+
+
+.btn-flat{
+	border-radius: 0px;
+}
+
+nav div .collapse ul.navbar-nav li.nav-item a.nav-link{
+	color: white;
+	
+}
+
+nav div .collapse ul.navbar-nav li.nav-item a.nav-link:hover{
+	color: darkblue;
+	border-bottom: 1px solid white;
+}
+nav div .collapse ul.navbar-nav li.nav-item a.nav-link.active{
+	color: whitesmoke;
+	border-bottom: 1px solid white;
+	background-color: darkblue;
+}
+
+
+
+
+#school_detail input.form-control, #school_detail select{
+	border-radius: 0px;
+	height: 40px;
+
+}
+
+#school_detail label{
+	position: absolute;
+	z-index: 20;
+	margin-top: -16px;
+	margin-left: 5px;
+	background-color: white;
+	padding: 2px;
+	font-size: 15px;
+	
+}
+
+#school_detail{
+	border:  1px solid gray;
+	padding: 18px;
+
+}
+
